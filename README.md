@@ -1,2 +1,2 @@
 # Top100
-Top 100 Games List - Static Website (testing)
+Static web-page for listing TOP 100 games list.
