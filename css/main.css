@@ -269,11 +269,20 @@ top: -8px;
 
 
 /*=========================================
-	Features
+	Even Entry & Odd Entry
 ==========================================*/
 
-.features {
+.evenentry {
   background-color: #f4f7f9;
+}
+
+.oddentry {
+  background-color: #fbfcfd;
+}
+
+.gameimage {
+  object-fit: cover;
+  width: 100%;
 }
 
 .owl-controls {
