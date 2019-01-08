@@ -1,9 +1,8 @@
 # ToDo
 
-- Change the color scheme
-- Create new main-page background image
 - Find images for each entry
 - Write section for each entry
+- Change loading image
 - Remove un-needed html & css
 - Host completed site on github pages with custom url
 
