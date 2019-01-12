@@ -1,38 +1,34 @@
 
 /* =================================== */
-/*	Basic Style 
+/*  Basic Style 
 /* =================================== */
 
 body {
     background-color: #fff;
     font-family: 'Open Sans', sans-serif;
     line-height: 21px;
-	font-size: 13px;
+  font-size: 13px;
     color: #6a737b;
 }
 
-ol, ul {
+ul {
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-figure, p {
+p {
     margin: 0;
 }
 
 a {
     color: #fff;
-	
+  
     -webkit-transition: all .3s ease-in 0s;
        -moz-transition: all .3s ease-in 0s;
         -ms-transition: all .3s ease-in 0s;
          -o-transition: all .3s ease-in 0s;
             transition: all .3s ease-in 0s;
-}
-
-iframe {
-    border: 0;
 }
 
 a, a:focus, a:hover {
@@ -44,33 +40,18 @@ a:focus, a:hover {
     color: #84afe6;
 }
 
-h1, h2, h3,
-h4, h5, h6 {
-	font-weight: normal;
-	margin: 0;
-}
-
-.clear:before,
-.clear:after {
-    content: " ";
-    display: table;
-}
- 
-.clear:after {
-   clear: both;
-}
- 
-.clear {
-   *zoom: 1;
+h1, h2, h3 {
+  font-weight: normal;
+  margin: 0;
 }
 
 span.color {
-	color: #79beee;
+  color: #79beee;
 }
 
 body > section,
 .footer {
-	padding: 70px 0;
+  padding: 70px 0;
 }
 
 .sec-title {}
@@ -81,17 +62,6 @@ body > section,
   font-size: 28px;
   font-weight: 800;
   text-transform: uppercase;
-}
-
-.sec-sub-title {
-	margin: 35px 0 45px;
-}
-
-.sec-sub-title p {
-	font-weight: 600;
-	line-height: 24px;
-	font-size: 18px;
-	color: #5b646e;
 }
 
 .devider {
@@ -119,7 +89,7 @@ body > section,
 }
 
 .mb50 {
-	margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 #preloader {
@@ -137,7 +107,7 @@ body > section,
 }
 
 /*=========================================
-	Header
+  Header
 ==========================================*/
 
 #navigation {
@@ -147,13 +117,13 @@ body > section,
   
     -webkit-transition: background-color 800ms linear;
        -moz-transition: background-color 800ms linear;
-	    -ms-transition: background-color 800ms linear;
+      -ms-transition: background-color 800ms linear;
          -o-transition: background-color 800ms linear;
-			transition: background-color 800ms linear;
+      transition: background-color 800ms linear;
 }
 
 .navbar-toggle i {
-	color: #fff;
+  color: #fff;
 }
 
 .navbar-brand {
@@ -161,23 +131,22 @@ body > section,
 }
 
 .navbar-nav li a {
-	border-top: 1px solid transparent;
+  border-top: 1px solid transparent;
 }
 
-.navbar-nav li a.current,
 .navbar-nav li a:focus,
 .navbar-nav li a:hover {
-	background-color: transparent;
-	border-top: 1px solid #32B0EE;
-	color: #fff;
+  background-color: transparent;
+  border-top: 1px solid #32B0EE;
+  color: #fff;
 }
 
 /*=========================================
-	Slider
+  Slider
 ==========================================*/
 
 #slider {
-	padding: 0;
+  padding: 0;
 }
 
 #slider .carousel-inner .item {
@@ -225,46 +194,8 @@ top: -8px;
   left: 20px;
 }
 
-.social-links {
-  margin-top: 5%;
-}
-
-.social-links li {
-	display: inline-block;
-}
-
-.social-links li a {
-  color: rgba(255, 255, 255, 0.3);
-  display: block;
-  margin: 0 6px;
-}
-
-.social-links li a:hover {
-  color: #fff;
-}
-
-.carousel-indicators {
-  bottom: 10px;
-  left: inherit;
-  margin: 0;
-  right: 30px;
-  top: 49%;
-  width: 0;
-}
-
-.carousel-indicators li {
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  height: 8px;
-  width: 8px;
-}
-
-.carousel-indicators .active {
-  height: 8px;
-  width: 8px;
-}
-
 /*=========================================
-	Even Entry & Odd Entry
+  Even Entry & Odd Entry
 ==========================================*/
 
 .evenentry {
@@ -287,41 +218,6 @@ top: -8px;
   float: left;
 }
 
-.owl-controls {
-  bottom: -45px;
-  margin-top: 10px;
-  position: relative;
-  text-align: center;
-}
-
-.owl-controls .owl-page {
-  display: inline-block;
-}
-
-.owl-controls .owl-page span {
-  border: 1px solid #C7CED3;
-  border-radius: 20px;
-  display: block;
-  height: 8px;
-  margin: 5px 4px;
-  width: 8px;
-}
-
-.owl-controls .owl-page.active span {
-  background: #062033;
-  border: 0;
-}
-
-.service-icon {
-  /*border: 1px solid #0eb493;*/
-  border: 1px solid #79beee;
-  border-radius: 50%;
-  /*color: #0eb493;*/
-  color: #79beee;
-  float: left;
-  padding: 10px 13px;
-}
-
 .service-desc {
   margin-left: 70px;
   position: relative;
@@ -336,7 +232,7 @@ top: -8px;
 }
 
 /*=========================================
-	Footer
+  Footer
 ==========================================*/
 
 .btn-nextpage {
@@ -366,45 +262,6 @@ top: -8px;
 
 .footer a:hover {
   color: #062033;
-}
-
-.footer h6 {
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 24px;
-  margin-bottom: 30px;
-}
-
-.about-us p {
-  line-height: 24px;
-}
-
-.footer-single .subscribe {
-  margin-bottom: 15px;
-  position: relative;
-}
-
-.footer-single {
-  line-height: 24px;
-}
-
-.footer-single ul {
-  }
-
-.footer-single li {
-  line-height: 32px;
-}
-
-.footer-single p i {
-  margin: 0 10px;
-}
-
-.credit a {
-  color: #062033;
-}
-
-.credit a:hover {
-  color: #fff;
 }
 
 .copyright {
