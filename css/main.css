@@ -207,14 +207,16 @@ top: -8px;
 }
 
 .gameimageeven {
+  margin-top: 55px;
   object-fit: cover;
-  width: 80%;
+  width: 90%;
   float: right;
-}
+} 
 
 .gameimageodd {
+  margin-top: 55px;
   object-fit: cover;
-  width: 80%;
+  width: 90%;
   float: left;
 }
 
