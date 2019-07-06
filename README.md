@@ -1,4 +1,7 @@
 # ToDo
 
-- Write section for each entry 80-1
+- Fill in 60-41
+- Fill in 40-21
+- Fill in 20-11
+- Fill in 10-1
 - Host completed site on github pages with custom url
